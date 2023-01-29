@@ -30,11 +30,12 @@ $ yarn workspace @<your-project-name>/<package-name> <your-command>
 
 This repo uses the following open source packages:
 
-- [Next.js](https://nextjs.org)
-- [Storybook](https://storybook.js.org/)
 - [Husky](typicode.github.io/husky)
-- [Prettier](https://www.npmjs.com/package/prettier)
 - [Jest](https://jestjs.io/)
+- [Next.js](https://nextjs.org)
+- [Prettier](https://www.npmjs.com/package/prettier)
+- [Renovate](https://github.com/renovatebot)
+- [Storybook](https://storybook.js.org/)
 
 ## How to contribute
 
