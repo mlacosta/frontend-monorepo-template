@@ -24,7 +24,7 @@
     "@storybook/nextjs": "^7.0.0-beta.36",
     "@storybook/react": "^7.0.0-beta.36",
     "@storybook/testing-library": "^0.0.13",
-    "@types/node": "18.11.18",
+    "@types/node": "18.13.0",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "storybook": "^7.0.0-beta.36",
