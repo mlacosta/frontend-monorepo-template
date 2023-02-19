@@ -1,6 +1,6 @@
-const path = require('path');
-module.exports = {
-  stories: ['../../components/**/stories/index.tsx'],
+import type { StorybookConfig } from '@storybook/nextjs';
+const config: StorybookConfig = {
+  stories: ['../../components/**/stories/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions'],
   framework: {
     name: '@storybook/nextjs',
@@ -10,3 +10,4 @@ module.exports = {
     autodocs: 'tag',
   },
 };
+export default config;

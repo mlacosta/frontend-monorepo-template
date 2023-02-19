@@ -24,6 +24,9 @@ $ yarn install
 ```bash
 # Run a package script
 $ yarn workspace @<your-project-name>/<package-name> <your-command>
+
+# Run storybook
+$ yarn storybook:run
 ```
 
 ## Packages

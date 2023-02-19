@@ -1,5 +1,5 @@
 {
-  "name": "@dabi/components",
+  "name": "@frontend-monorepo/components",
   "version": "1.0.0",
   "main": "index.js",
   "author": "mlacosta",
