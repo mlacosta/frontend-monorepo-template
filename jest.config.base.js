@@ -3,7 +3,6 @@
 process.env.TZ = 'UTC';
 
 module.exports = {
-  verbose: true,
   transform: {
     '^.+\\.(t|j)sx?$': [
       '@swc/jest',
@@ -22,11 +21,10 @@ module.exports = {
   },
   preset: 'ts-jest',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-  testURL: 'http://localhost',
   testEnvironment: 'jsdom',
+  testEnvironmentOptions: {
+    url: 'http://localhost',
+  },
   transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
   testMatch: ['**/*.(spec|test).{ts,tsx}'],
-  collectCoverage: true,
-  collectCoverageFrom: ['**/*.{ts,tsx}', '!**/stories/*.{ts,tsx}'],
-  coverageDirectory: './coverage/',
 };
