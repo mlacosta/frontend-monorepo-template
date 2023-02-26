@@ -3,7 +3,6 @@
 process.env.TZ = 'UTC';
 
 module.exports = {
-  verbose: true,
   transform: {
     '^.+\\.(t|j)sx?$': [
       '@swc/jest',
@@ -28,7 +27,4 @@ module.exports = {
   },
   transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
   testMatch: ['**/*.(spec|test).{ts,tsx}'],
-  collectCoverage: true,
-  collectCoverageFrom: ['**/*.{ts,tsx}', '!**/stories/*.{ts,tsx}'],
-  coverageDirectory: './coverage/',
 };
