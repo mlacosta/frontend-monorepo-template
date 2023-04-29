@@ -14,7 +14,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "typescript": "4.9.5",
+    "typescript": "5.0.4",
     "@next/font": "13.3.2",
     "@types/node": "18.14.0",
     "@types/react": "18.2.0",
