@@ -13,7 +13,7 @@
 $ git clone --depth 1 --single-branch https://github.com/mlacosta/frontend-monorepo-template your-project-name
 
 # Go into the repository
-$ cd frontend-monorepo-template
+$ cd your-project-name
 
 # Install dependencies
 $ yarn install
