@@ -10,7 +10,7 @@
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/mlacosta/frontend-monorepo-template
+$ git clone --depth 1 --single-branch https://github.com/mlacosta/frontend-monorepo-template your-project-name
 
 # Go into the repository
 $ cd frontend-monorepo-template
