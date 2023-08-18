@@ -2477,7 +2477,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@frontend-monorepo/storybook@workspace:packages/storybook"
   dependencies:
-    "@next/font": 13.4.17
+    "@next/font": 13.4.18
     "@storybook/addon-essentials": ^7.0.0-beta.50
     "@storybook/addon-interactions": ^7.0.0-beta.50
     "@storybook/addon-links": ^7.0.0-beta.50
@@ -2503,7 +2503,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@frontend-monorepo/ui@workspace:packages/ui"
   dependencies:
-    "@next/font": 13.4.17
+    "@next/font": 13.4.18
     "@types/node": 18.14.0
     "@types/react": 18.2.20
     "@types/react-dom": 18.2.7
@@ -2996,10 +2996,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/font@npm:13.4.17":
-  version: 13.4.17
-  resolution: "@next/font@npm:13.4.17"
-  checksum: 6586f9382c4f832ce82ac9771d6d7a831d4e32a51fa448f76b06c88e921322fb8eb224b1879d8f9c78ea87d9ae0621f37fc975bde5bd823c5172c4709801b03d
+"@next/font@npm:13.4.18":
+  version: 13.4.18
+  resolution: "@next/font@npm:13.4.18"
+  checksum: 6cb6a2fe1ecbff42b1cae5c12b8d77d32ebbcd4730c91be9e3386b8e0bdb5a5c5529dd4f777de32c708ef950dfe961162f1249a902f57c0dc101ae7417856204
   languageName: node
   linkType: hard
 
