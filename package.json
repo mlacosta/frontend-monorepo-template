@@ -9,6 +9,9 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "storybook:run": "turbo storybook",
     "component:create": "yarn workspace @repo/components create-component",
+    "test": "jest -u --maxWorkers=50%",
+    "test:watch": "jest --watch --maxWorkers=25%",
+    "test:ci": "jest --runInBand",
     "postinstall": "husky install"
   },
   "devDependencies": {
