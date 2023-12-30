@@ -1,81 +1,51 @@
-# Turborepo starter
+<h1 align="center">
+  <br>
+  Front-end Monorepo Template
+  <br>
+</h1>
 
-This is an official starter Turborepo.
+<h4 align="center">A typescript monorepo template for Front-End projects</h4>
 
-## Using this example
+## Installation
 
-Run the following command:
+```bash
+# Clone this repository
+$ git clone --depth 1 --single-branch https://github.com/mlacosta/frontend-monorepo-template your-project-name
 
-```sh
-npx create-turbo@latest
+# Go into the repository
+$ cd your-project-name
+
+# Install dependencies
+$ yarn install
 ```
 
-## What's inside?
+## How to use
 
-This Turborepo includes the following packages/apps:
+```bash
+# Run a package script
+$ yarn workspace @<your-project-name>/<package-name> <your-command>
 
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
+# Run storybook
+$ yarn storybook:run
 ```
 
-### Develop
+## Packages
 
-To develop all apps and packages, run the following command:
+This repo uses the following open source packages:
 
-```
-cd my-turborepo
-pnpm dev
-```
+- [Husky](typicode.github.io/husky)
+- [Next.js](https://nextjs.org)
+- [Prettier](https://www.npmjs.com/package/prettier)
+- [Renovate](https://github.com/renovatebot)
+- [Material UI](https://mui.com/)
+- [Storybook](https://storybook.js.org/)
+- [Turborepo](https://turbo.build/)
+- [@swc/jest](https://swc.rs/)
 
-### Remote Caching
+## How to contribute
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/newFeature`)
+3. Commit your Changes (`git commit -m 'Add some newFeature'`)
+4. Push to the Branch (`git push origin feature/newFeature`)
+5. Open a Pull Request

@@ -1,11 +1,14 @@
 {
   "name": "frontend-monorepo-template",
   "private": true,
+  "version": "0.1.0",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "storybook:run": "turbo storybook",
+    "component:create": "yarn workspace @repo/components create-component"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
