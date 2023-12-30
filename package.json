@@ -8,13 +8,15 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "storybook:run": "turbo storybook",
-    "component:create": "yarn workspace @repo/components create-component"
+    "component:create": "yarn workspace @repo/components create-component",
+    "postinstall": "husky install"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "prettier": "^3.1.0",
-    "turbo": "latest"
+    "turbo": "latest",
+    "husky": "^8.0.0"
   },
   "engines": {
     "node": ">=18"
