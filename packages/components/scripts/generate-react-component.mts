@@ -50,7 +50,7 @@ const story = {
 export default story;
 `;
 
-  fs.writeFileSync(`${storiesFolder}/index.tsx`, storyContent);
+  fs.writeFileSync(`${storiesFolder}/index.stories.tsx`, storyContent);
 
   // Create "elements" and "constants" subfolders
   const elementsFolder = `src/${componentNameCamelCase}/elements`;
