@@ -11,6 +11,7 @@
       "automerge": true
     }
   ],
+  "baseBranches": ["main", "material-ui","tailwind"],
   "platformAutomerge": true,
   "schedule": "monthly"
 }
