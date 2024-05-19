@@ -11,7 +11,7 @@
       "automerge": true
     }
   ],
-  "baseBranches": ["main", "material-ui","tailwind"],
+  "baseBranches": ["main", "material-ui","tailwind-css"],
   "platformAutomerge": true,
   "schedule": "monthly"
 }
