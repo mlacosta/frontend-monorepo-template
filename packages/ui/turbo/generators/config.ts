@@ -4,8 +4,8 @@ import type { PlopTypes } from "@turbo/gen";
 
 export default function generator(plop: PlopTypes.NodePlopAPI): void {
   // A simple generator to add a new React component to the internal UI library
-  plop.setGenerator("react-component", {
-    description: "Adds a new react component",
+  plop.setGenerator("ReactComponent", {
+    description: "Adds a new React component",
     prompts: [
       {
         type: "input",
@@ -16,14 +16,14 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
     actions: [
       {
         type: "add",
-        path: "src/{{kebabCase name}}.tsx",
+        path: "src/{{pascalCase name}}/index.ts",
         templateFile: "templates/component.hbs",
       },
       {
         type: "append",
-        path: "package.json",
-        pattern: /"exports": {(?<insertion>)/g,
-        template: '    "./{{kebabCase name}}": "./src/{{kebabCase name}}.tsx",',
+        path: "src/index.tsx",
+        pattern: /(?<insertion>.*)/g,
+        template: 'export * from "./{{pascalCase name}}";',
       },
     ],
   });
