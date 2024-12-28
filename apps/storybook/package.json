@@ -12,6 +12,7 @@
     "build:storybook": "storybook build"
   },
   "dependencies": {
+    "@emotion/react": "^11.0.0-rc.0",
     "@emotion/styled": "^11.14.0",
     "@fontsource/material-icons": "^5.1.0",
     "@fontsource/roboto": "^5.1.0",
@@ -22,7 +23,6 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "^3.2.3",
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@storybook/addon-essentials": "^8.4.7",

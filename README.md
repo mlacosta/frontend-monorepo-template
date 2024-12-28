@@ -40,7 +40,9 @@ This repo uses the following open source packages:
 - [Next.js](https://nextjs.org)
 - [Prettier](https://www.npmjs.com/package/prettier)
 - [Storybook](https://storybook.js.org/)
+- [tsup](https://github.com/egoist/tsup)
 - [Turborepo](https://turbo.build/)
+
 
 ## How to contribute
 

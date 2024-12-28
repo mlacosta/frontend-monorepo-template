@@ -3,13 +3,16 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx",
-    "./theme": "./src/theme.ts"
+    "./theme": "./src/theme.ts",
+    ".":"./dist/index.js"
   },
   "scripts": {
+    "build": "tsup src/index.ts src/components/**/*.tsx --format cjs,esm --dts",
+    "dev": "tsup src/index.ts src/components/**/*.tsx --format cjs,esm --dts --watch",
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component",
     "check-types": "tsc --noEmit",
@@ -31,10 +34,9 @@
     "typescript": "5.5.4"
   },
   "dependencies": {
+    "@mui/material": "^6.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "peerDependencies": {
-    "@mui/material": "^6.3.0"
+    "react-dom": "^19.0.0",
+    "tsup": "^8.3.5"
   }
 }
