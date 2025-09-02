@@ -2580,27 +2580,27 @@
   resolved "https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz"
   integrity sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==
 
-"@turbo/gen@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@turbo/gen/-/gen-2.4.4.tgz#759996eae10fe4fef5ef4ab23c8b9a3bab7d0e9f"
-  integrity sha512-02DR0UFngfVROq/L7j4VdkpT46Rnk5mm8i5AE985jV114SjuN57Y2oBjSK9Lzm6hlun/H0MQtdJBRybk4nRIAQ==
+"@turbo/gen@^2.5.6":
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/@turbo/gen/-/gen-2.5.6.tgz#a9dfe5db76a69432619ebaa62897cf55011ac0e8"
+  integrity sha512-0ugshQQGJE/lVYHhkFsdAd6prM279Uyl+UVfylkNhrL21YML4/fGKPYb99G0bNJ+okp7bA++4/RDFh3MS0ZeRg==
   dependencies:
-    "@turbo/workspaces" "2.4.4"
+    "@turbo/workspaces" "2.5.6"
     commander "^10.0.0"
     fs-extra "^10.1.0"
     inquirer "^8.2.4"
     minimatch "^9.0.0"
     node-plop "^0.26.3"
     picocolors "1.0.1"
-    proxy-agent "^6.2.2"
+    proxy-agent "^6.5.0"
     ts-node "^10.9.2"
     update-check "^1.5.4"
     validate-npm-package-name "^5.0.0"
 
-"@turbo/workspaces@2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@turbo/workspaces/-/workspaces-2.4.4.tgz#55d95177afc45bca46ea65065e460748e757a1c4"
-  integrity sha512-5CK3ZkVskSExf9YaXVMJ04F6Fb18HXKVZw8TMKVP7qOIvHGiBmT6YzWHqsQ3/PMNov2TzJ41ofRKX3zjR3G6Yg==
+"@turbo/workspaces@2.5.6":
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/@turbo/workspaces/-/workspaces-2.5.6.tgz#8c9534398bb022c841c5f53d0b58e0738d569f0e"
+  integrity sha512-TmY25GmxzgX+395Fwl/F0te6S4RHdJtYl1QjZr+wlxVvKJ0IBOACpnpAvnLM3dpTgXuQukGtSWcRz7Zi9mZqcQ==
   dependencies:
     commander "^10.0.0"
     execa "5.1.1"
@@ -8036,9 +8036,9 @@ prop-types@^15.6.2, prop-types@^15.8.1:
     object-assign "^4.1.1"
     react-is "^16.13.1"
 
-proxy-agent@^6.2.2:
+proxy-agent@^6.5.0:
   version "6.5.0"
-  resolved "https://registry.npmjs.org/proxy-agent/-/proxy-agent-6.5.0.tgz"
+  resolved "https://registry.yarnpkg.com/proxy-agent/-/proxy-agent-6.5.0.tgz#9e49acba8e4ee234aacb539f89ed9c23d02f232d"
   integrity sha512-TmatMXdr2KlRiA2CyDu8GqR8EjahTG3aY3nXjdzFyoZbmB8hrBsTyMezhULIXKnC0jpfjlmiZ3+EaCzoInSu/A==
   dependencies:
     agent-base "^7.1.2"
