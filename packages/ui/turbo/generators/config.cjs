@@ -1,11 +1,8 @@
-import type { PlopTypes } from "@turbo/gen";
-
 // Learn more about Turborepo Generators at https://turbo.build/repo/docs/core-concepts/monorepos/code-generation
 
-export default function generator(plop: PlopTypes.NodePlopAPI): void {
-  // A simple generator to add a new React component to the internal UI library
+module.exports = function generator(plop) {
   plop.setGenerator("ReactComponent", {
-    description: "Adds a new React component",
+    description: "Adds a new React component with Storybook stories",
     prompts: [
       {
         type: "input",
@@ -16,15 +13,20 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
     actions: [
       {
         type: "add",
-        path: "src/{{pascalCase name}}/index.ts",
+        path: "src/{{pascalCase name}}/index.tsx",
         templateFile: "templates/component.hbs",
       },
       {
+        type: "add",
+        path: "src/{{pascalCase name}}/index.stories.tsx",
+        templateFile: "templates/stories.hbs",
+      },
+      {
         type: "append",
-        path: "src/index.tsx",
+        path: "src/index.ts",
         pattern: /(?<insertion>.*)/g,
         template: 'export * from "./{{pascalCase name}}";',
       },
     ],
   });
-}
+};

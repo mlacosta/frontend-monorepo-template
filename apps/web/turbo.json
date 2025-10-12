@@ -1,0 +1,11 @@
+{
+  "extends": ["//"],
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "dev": {
+      "dependsOn": ["@repo/ui#build"],
+      "cache": false,
+      "persistent": true
+    }
+  }
+}
