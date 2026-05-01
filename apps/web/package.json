@@ -19,7 +19,7 @@
     "@repo/ui": "*",
     "next": "^16.2.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react-dom": "^19.2.5",
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "@repo/typescript-config": "*",
     "@types/node": "^25",
     "@types/react": "18.3.1",
-    "@types/react-dom": "19.0.1",
+    "@types/react-dom": "19.2.3",
     "typescript": "5.5.4"
   }
 }
