@@ -26,7 +26,7 @@
     "@swc/jest": "^0.2.39",
     "@turbo/gen": "^2.9.16",
     "@types/node": "^26.1.0",
-    "@types/react": "19.2.16",
+    "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "jest": "^30.4.2",
     "jest-environment-jsdom": "^29.7.0",
