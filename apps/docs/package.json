@@ -19,7 +19,7 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
-    "@types/node": "^25",
+    "@types/node": "^26",
     "@types/react": "19.2.16",
     "@types/react-dom": "19.2.3",
     "typescript": "5.5.4"
