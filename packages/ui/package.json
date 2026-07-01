@@ -34,7 +34,7 @@
     "typescript": "5.5.4"
   },
   "dependencies": {
-    "@mui/material": "^9.0.0",
+    "@mui/material": "^9.1.2",
     "react": "^19.2.7",
     "react-dom": "^19.2.5",
     "tsup": "^8.5.1"
