@@ -37,7 +37,7 @@
     "@types/react-dom": "19.2.3",
     "postcss": "^8",
     "storybook": "^8.6.18",
-    "tailwindcss": "^4.3.0",
+    "tailwindcss": "^4.3.2",
     "typescript": "^5.5.4",
     "webpack": "^5"
   }
