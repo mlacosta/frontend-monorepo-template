@@ -5845,10 +5845,10 @@ eslint-plugin-storybook@^9.0.7:
     "@typescript-eslint/utils" "^8.8.1"
     ts-dedent "^2.2.0"
 
-eslint-plugin-turbo@^2.9.7:
-  version "2.9.7"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-turbo/-/eslint-plugin-turbo-2.9.7.tgz#2f172b7b6109447c36cc523ce92424658fb1d753"
-  integrity sha512-jFCPV+hnGXNBFjESdF3jmKFD11orR8JcXEjuPSGDW7QyLeYG76shsTHO5JjuRvOFwRO0SEPkTfMdxHKnVnnuWg==
+eslint-plugin-turbo@^2.10.2:
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-turbo/-/eslint-plugin-turbo-2.10.2.tgz#0cffc78c9d51cb05b13d12868feb752fc902fed8"
+  integrity sha512-ERkDlzfk4AMZv3lijeuDSQrYRArUXvOVYex96EN0c2jLUPtkQkucSzwRVgnwQKC4yj0PoWpCk5iork2bFQ2WPQ==
   dependencies:
     dotenv "16.0.3"
 
