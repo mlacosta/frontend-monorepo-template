@@ -22,7 +22,7 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
-    "@swc/core": "^1.15.47",
+    "@swc/core": "^1.16.1",
     "@swc/jest": "^0.2.39",
     "@turbo/gen": "^2.10.2",
     "@types/node": "^26.1.0",
