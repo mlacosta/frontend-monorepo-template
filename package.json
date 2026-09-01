@@ -12,7 +12,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.2.0",
     "prettier": "^3.2.5",
-    "turbo": "^2.9.14",
+    "turbo": "^2.10.12",
     "typescript": "6.0.3"
   },
   "engines": {
