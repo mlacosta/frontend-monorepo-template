@@ -3675,10 +3675,10 @@
   resolved "https://registry.yarnpkg.com/@turbo/darwin-arm64/-/darwin-arm64-2.10.12.tgz#ac2d3dde3a2407f8359ca2e3152690280cff2714"
   integrity sha512-H4Elb1jqTZVeIC9bbcNwjSzemZ6RegoTOVHeuV5Osirt2Z8UguTyisMEkvZjPVZgMeN9J4ERZBFad40tFnkb7w==
 
-"@turbo/gen@^2.10.2":
-  version "2.10.2"
-  resolved "https://registry.yarnpkg.com/@turbo/gen/-/gen-2.10.2.tgz#59e3a6cc9e3b8209f793076b1d61366f9fbbb4e0"
-  integrity sha512-euo5g9gAjMaWt0sl8Xg2ThahSIuGvK/hqciXt8sthH+HrifzjKa9TQaIVtdTpFzsTKfOqBlUvd5O+aPrEnvxqQ==
+"@turbo/gen@^2.10.12":
+  version "2.10.12"
+  resolved "https://registry.yarnpkg.com/@turbo/gen/-/gen-2.10.12.tgz#3cc19a2aca09612c7288a6b089530cb539d63364"
+  integrity sha512-WK6xu1GJAg3845Zp+UeVHyzUiPNutJkfcoJPNbpwwu+rf9JgEWmc4LyOPH+JtX0OiQbi/uN+g/mC6CkP2dtnlw==
   dependencies:
     "@inquirer/prompts" "^7.10.1"
     esbuild "^0.28.1"
