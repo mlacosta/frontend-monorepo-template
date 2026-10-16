@@ -18,7 +18,7 @@
     "@fontsource/roboto": "^5.3.0",
     "@repo/ui": "*",
     "@storybook/addon-themes": "^10.4.6",
-    "next": "^16.3.6",
+    "next": "^16.3.8",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },
